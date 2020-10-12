@@ -1,6 +1,6 @@
 import fetch from 'node-fetch';
 
-const URL = 'http://4ok6r.mocklab.io/entities';
+const URL = 'http://testing-on-frontend.mocklab.io';
 
 export const fetchData = async (url = URL) => {
   const response = await fetch(url);
